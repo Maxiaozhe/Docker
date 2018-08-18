@@ -26,4 +26,7 @@ show create database {database name};
 # Docker
 # SQL
 # JAVA
+# JAVASCRIPT
+# CSS
+
 
