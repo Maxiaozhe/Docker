@@ -76,6 +76,16 @@ docker rm $(docker ps -a -q)              #清除所有容器（windows下可用
 docker rmi $(docker images -q)            #清除所有镜像（windows下可用Powershell 执行）
 docker volume rm $(docker volume ls -q)   #清除所有volume（windows下可用Powershell 执行）
 ```
+## docker-compose file Tips
 
+### Docker Compose restart 
+Docker container 因为某种原因退出时自动再启动的设定
+options:
 
+选项                     |说明
+------------------------|--------------------
+no:                     |不重启                
+on-failure[max-retries]:|出错时重启（最大重启次数）
+always                  |总是重启
+unless-stopped	        |除了docker daemon进程启动时，Stats中止状态以外和alway相同
 
