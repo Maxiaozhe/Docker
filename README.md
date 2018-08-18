@@ -71,10 +71,10 @@ docker-compose exec [servicename]
 
 彻底清除所有镜像和容器
 ```
-docker-compose down               #docker-compose 停止
-docker rm $(docker ps -a -q)      #清除所有容器（windows下可用Powershell 执行）
-docker rmi $(docker images -q)    #清除所有镜像（windows下可用Powershell 执行）
-docker volume rm $(docker volume ls -q)  #清除所有volume（windows下可用Powershell 执行）
+docker-compose down               //docker-compose 停止
+docker rm $(docker ps -a -q)      //清除所有容器（windows下可用Powershell 执行）
+docker rmi $(docker images -q)    //清除所有镜像（windows下可用Powershell 执行）
+docker volume rm $(docker volume ls -q)  //清除所有volume（windows下可用Powershell 执行）
 ```
 
 
