@@ -41,6 +41,13 @@ docker kill [container Id]
 docker rm [container Id]
 ```
 # docker-compose
+## 查看docker-compose容器
+```
+docker-compose ps # 与doker ps 不同，只列出容器名，不列出容器和镜像ID
+docker-compose ps --services #只列出service name(docker-compose文件中定义的service name)
+docker-compose config #查看 docker-compose文件内容
+```
+
 ```
 docker-compose up
 ```
@@ -51,15 +58,14 @@ options:
 ```
 docker-compose down
 
-docker-compose ps
-```
 ```
 docker-compose bulid
 ```
-oprions:
+options:
 ```
 --no-cache
 ```
+docker-compose exec [servicename]
 
 彻底清除所有镜像和容器
 ```
