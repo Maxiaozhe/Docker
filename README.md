@@ -1,6 +1,9 @@
 # Docker 笔记
-## Docker 常用命令
-管理容器
+Docker 常用命令
+## 创建容器
+
+
+## 管理容器
 ### 容器列表
 ```
 docker ps
@@ -29,11 +32,11 @@ docker stop [container Id]
 ```
 docker exec [container Id] -it bash
 ```
-### 容器中止
+### 强行中止
 ```
 docker kill [container Id]
 ```
-### 容器清除
+### 容器删除
 ```
 docker rm [container Id]
 ```
