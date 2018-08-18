@@ -60,6 +60,7 @@ docker-compose down
 ```
 ```
 docker-compose bulid
+docker-compose bulid --no-cache
 ```
 options:
 ```
