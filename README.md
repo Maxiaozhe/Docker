@@ -65,7 +65,9 @@ options:
 ```
 --no-cache
 ```
+```
 docker-compose exec [servicename]
+```
 
 彻底清除所有镜像和容器
 ```
