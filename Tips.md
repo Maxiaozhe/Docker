@@ -51,9 +51,10 @@ Windows,Mac下：[下载安装文件](https://github.com/Masterminds/glide/relea
 # JAVASCRIPT
 # CSS
 # Git
-# ubuntu
-## 系统设置
-### Hyper-V 上变更显示器分辨率
+# linux
+## ubuntu
+### 系统设置
+#### Hyper-V 上变更显示器分辨率
 ```
 1. $sudoedit /etc/default/grub
 2. 编辑
@@ -63,7 +64,8 @@ GRUB_CMDLINE_LINUX_DEFAULT="quiet splash video=hyperv_fb:920x1080"
 3.sudo update-grub
 4.reboot
 ```
-### 执行sh批处理文件
+### 常用命令
+#### 执行sh批处理文件
 ```
 sudo sh shcommand.sh
 ```
