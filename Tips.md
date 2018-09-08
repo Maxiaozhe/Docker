@@ -63,4 +63,8 @@ GRUB_CMDLINE_LINUX_DEFAULT="quiet splash video=hyperv_fb:920x1080"
 3.sudo update-grub
 4.reboot
 ```
+### 执行sh批处理文件
+```
+sudo sh shcommand.sh
+```
 
