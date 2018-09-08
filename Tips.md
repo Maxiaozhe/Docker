@@ -52,7 +52,8 @@ Windows,Mac下：[下载安装文件](https://github.com/Masterminds/glide/relea
 # CSS
 # Git
 # ubuntu
-## Hyper-V 上变更显示器分辨率
+## 系统设置
+### Hyper-V 上变更显示器分辨率
 ```
 1. $sudoedit /etc/default/grub
 2. 编辑
