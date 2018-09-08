@@ -1,5 +1,9 @@
 # Docker 笔记
 Docker 常用命令
+## Docker 起動
+```
+ $sudo service docker start
+```
 ## 创建容器
 
 
