@@ -44,6 +44,12 @@ docker kill [container Id]
 ```
 docker rm [container Id]
 ```
+### 查看容器环境变量
+```
+docker inspect [container]                #显示所有设置内容（JSON）
+docker exec -it [container] env           #显示环境变量
+docker-compose exec [servicename] env     #显示环境变量
+```
 # docker-compose
 ## 查看docker-compose容器
 ```
