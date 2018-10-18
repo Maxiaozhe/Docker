@@ -102,6 +102,7 @@ Windows,Mac下：[下载安装文件](https://github.com/Masterminds/glide/relea
 </assembly>
 ```
 2.修改注册表，使得manifast设置生效
+
 3.系统重启
 ## ubuntu
 ### 系统设置
