@@ -102,6 +102,9 @@ Windows,Mac下：[下载安装文件](https://github.com/Masterminds/glide/relea
 </assembly>
 ```
 2.修改注册表，使得manifast设置生效
+\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\SideBySide
+添加一个新的DWORD型键；PreferExternalManifest=1
+
 
 3.系统重启
 ## ubuntu
