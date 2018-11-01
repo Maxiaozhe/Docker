@@ -43,6 +43,14 @@ $ go install github.com/Masterminds/glide
 Windows,Mac下：[下载安装文件](https://github.com/Masterminds/glide/releases)
 # NodeJs
 ## PM2
+```
+pm2 start app.js    #启动app 
+pm2 show list       #显示app列表
+pm2 show 0          #显示第一个app的情报
+pm2 log 0           #显示app的log   
+pm2 stop 0          
+pm2 delete 0        #删除app
+```
 ## NPM
 # C#
 # Docker
